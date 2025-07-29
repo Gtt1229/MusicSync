@@ -6,7 +6,7 @@ namespace winrt_media = winrt::Windows::Media::Control;
 namespace winrt_streams = winrt::Windows::Storage::Streams;
 namespace winrt_storage = winrt::Windows::Storage;
 
-BAKKESMOD_PLUGIN(MusicSync, "Music synchronization plugin that displays current playing song info", plugin_version, PLUGINTYPE_FREEPLAY)
+BAKKESMOD_PLUGIN(MusicSync, "MusicSync for Windows API", plugin_version, PLUGINTYPE_FREEPLAY)
 
 std::shared_ptr<CVarManagerWrapper> _globalCvarManager;
 
